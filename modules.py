@@ -1,7 +1,7 @@
 import random
 
-#characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
-'''
+characters = 'abcdefghijklmnopqrstuvwxyz0123456789'
+
 def random_user_id():
     user_id =''
     for i in range(0,6):
@@ -9,8 +9,7 @@ def random_user_id():
             
     return user_id
 print(random_user_id())
-'''
-'''
+
 n = int(input("Enter length of ID: "))
 m = int(input("Enter No. of Id's needed: "))
 
@@ -27,8 +26,7 @@ def user_id_gen_by_user():
 
     
 user_id_gen_by_user()
-'''
-'''
+
 def rgb_color_gen():
     r = random.randint(0,256)
     g = random.randint(0,256)
@@ -36,8 +34,7 @@ def rgb_color_gen():
 
     return "rgb({},{},{})".format(r,g,b)
 print(rgb_color_gen())
-'''
-'''
+
 allowed_char = '0123456789ABCDEF'
 n = int(input("Enter No. of colours: "))
 
@@ -71,7 +68,7 @@ def shuffle_list(items):
 
     return shuffled_list
 print(shuffle_list(['Mango', 'Chickoo', 'Banana']))
-'''
+
 
 def random_num(items):
     random_list =[]
