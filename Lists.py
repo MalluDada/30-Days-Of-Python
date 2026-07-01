@@ -1,4 +1,4 @@
-'''
+
 empty_list= list()
 print(empty_list)
 
@@ -13,8 +13,7 @@ last_fruit = fruits[4]
 print(first_fruit)
 print(middle_fruit)
 print(last_fruit)
-'''
-'''
+
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 it_companies[5] = 'Netflix'
 
@@ -46,8 +45,7 @@ print(it_companies[3:5])
 
 it_companies.pop(0)
 print(it_companies)
-'''
-'''
+
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
 joined_list = front_end + back_end
@@ -61,8 +59,7 @@ full_stack.insert(6, 'Python')
 full_stack.isert(7, 'SQL')
 
 print(full_stack)
-'''
-'''
+
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 ages.sort()
@@ -90,8 +87,7 @@ print('Absolute Max: ', absolute_max)
 print('Absolute Min: ', absolute_min)
 
 print(absolute_max < absolute_min)
-'''
-'''
+
 countries = [
   'Afghanistan',
   'Albania',
@@ -296,7 +292,7 @@ print(countries[len(countries)//2])
 print(countries[0:98])
 
 print(countries[98:196])
-'''
+
 countries= ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 
 ch, ru, us, *scandic = countries
