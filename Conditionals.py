@@ -1,13 +1,13 @@
-'''
+
 age = int(input("Enter your age "))
 remaining_years = 18 - age
 if age >= 18: 
     print("You are eligible to drive")
 else:
     print("You have to wait for {} more years to be eligible to drive".format(remaining_years))
-'''
 
-'''
+
+
 my_age = 19
 
 your_age = int(input("Enter Your Age: "))
@@ -22,8 +22,7 @@ elif  my_age - your_age == 1 :
 else:
       print("You are {} years younger than me".format(my_age - your_age))  
 
-'''
-'''
+
 score = int(input("Enter your score: "))
 
 if score >= 90:
@@ -37,8 +36,7 @@ elif score >= 60:
 else:
     print("Grade: F")
 
-'''
-'''
+
 Autumn = ['September', 'October', 'November']
 spring = [' March', 'April', 'May']
 Winter = ['December', 'January', 'February']
@@ -53,7 +51,7 @@ elif month in Winter:
     print("Winter")
 else:
     print("Summer")
-'''
+
 
 person= {
     'first_name': 'Asabeneh',
