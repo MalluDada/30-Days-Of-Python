@@ -1,4 +1,4 @@
-'''
+
 a =int(input('Enter a: '))
 b = int(input('Enter b: '))
 
@@ -8,8 +8,7 @@ def add_two_numbers(a,b):
 print(add_two_numbers(a,b))
 
 add_two_numbers(a,b)
-'''
-'''
+
 r = int(input('Enter radius: '))
 
 
@@ -18,8 +17,7 @@ def area_of_circle(r):
    area = pi * r**2
    return area
 print('Area Of Circle:',area_of_circle(r))
-'''
-'''
+
 
 def addition(*nums):
     total = 0
@@ -35,15 +33,13 @@ def addition(*nums):
 
 print(addition(2,4,7))
 print(addition(2,'HEELO',5,6))
-'''
-'''
+
 def celcius_to_farenheit(c):
     f = (c*9/5)+32
     return f
 print(celcius_to_farenheit(35))
 
-'''
-'''
+
 Autumn = ["September", "October", "November"]
 Winter = ["December", "January", "February"]
 Spring = ["March", "April", "May"]
@@ -60,8 +56,7 @@ def check_season(month):
     
    
 print(check_season("October"))
-    '''
-'''
+  
 def solve_quadratic_eqn(a,b,c):
     d = b**2 - 4*a*c
 
@@ -72,8 +67,7 @@ def solve_quadratic_eqn(a,b,c):
     x2 = (-b - d**0.5)/2*a
     return x1,x2
 print(solve_quadratic_eqn(4,10,5))
-    '''
-'''
+
 fruit_list = ["Banana", "Apple", "Mango"]
 
 def print_list(fruits):
@@ -82,8 +76,7 @@ def print_list(fruits):
 
 print_list(fruit_list)
 
-'''
-'''
+
 
 def reverse(list):
     reverse_list = []
@@ -93,8 +86,7 @@ def reverse(list):
 
 
 reverse([1,2,3,4])
-'''
-'''
+
 def even_and_odd(n):
     odd = 0
     even = 0
@@ -108,17 +100,14 @@ def even_and_odd(n):
 
 
 even_and_odd(10)
-'''
-'''
+
 def add_item(my_list,item):
     my_list.append(item)
     return my_list
 
 
 print(add_item([1,2,3,4],5))
-'''
 
-'''
 def odd_sum(n):
     total = 0
     for i in range(n + 1):
@@ -129,8 +118,7 @@ def odd_sum(n):
         
         
 print(odd_sum(10))
-'''
-'''
+
 def find_factorial(n):
     factorial = 1
     for i in range(1,n+1):
@@ -140,8 +128,7 @@ def find_factorial(n):
 
 
 print(find_factorial(3))
-'''
-'''
+
 
 def is_empty(value):
     if len(value) == 0:
@@ -152,9 +139,7 @@ def is_empty(value):
 
 print(is_empty(""))
 print(is_empty("My name is Malhar"))
-'''
 
-'''
 def greet(name = "Guest"):
     if len(name) == 0:
         return "Hello Guest!"
@@ -165,10 +150,7 @@ def greet(name = "Guest"):
 print(greet("Malhar"))
 print(greet())
 
-'''
 
-
-'''
 def show_args(**args):
     for key,value in args.items():
         print("{}: {}".format(key, value))
@@ -176,7 +158,7 @@ def show_args(**args):
 
 show_args(name="Alice", age=30, city="New York")
 
-'''
+
 
 
 
