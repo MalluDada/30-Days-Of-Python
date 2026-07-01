@@ -1,4 +1,4 @@
-'''
+
 for i in range(11):
     print(i)
 
@@ -9,8 +9,7 @@ count = 0
 while count < 11:
     print(count)
     count = count + 1
-'''
-'''
+
 for i in range(1 , 8):
     print('#' * i)
 
@@ -29,34 +28,28 @@ print('---------')
 
 for i in range(0,11):
     print('{} x {} = {}'.format(i,i,i*i) )
-'''
 
-'''
 languages =  ['Python', 'Numpy','Pandas','Django', 'Flask']
 
 for language in languages:
     print(language)
-    '''
-'''
+ 
 for i in range(0,101):
     if i % 2 == 0:
         print(i)
-    '''
-'''
+
 for i in range(0,101):
     if i % 2 != 0:
         print(i)
-        '''
-'''
+     
+
 total = 0
 
 for i in range(101):
     total += i
 
 print("The sum is {}".format(total))
-'''
 
-'''
 odd_sum = 0
 even_sum = 0
 for i in range(101):
@@ -66,7 +59,7 @@ for i in range(101):
         odd_sum += i
 
 print("The sum of even numbers is {}. The sum of odd numbers is {}".format(even_sum,odd_sum))
-'''
+ 
 
 countries = [
   'Afghanistan',
@@ -265,14 +258,13 @@ countries = [
   'Zambia',
   'Zimbabwe'
 ]
-'''
+
 for country in countries:
     if 'land' in country:
 
         print(country)
 
-        '''
-'''
+ 
 fruits = ['banana', 'orange', 'mango', 'lemon'] 
 reversed_fruits = []
 
@@ -280,7 +272,7 @@ for i in range(len(fruits)-1, -1, -1):
     reversed_fruits.append(fruits[i])
      
 print(reversed_fruits)
-'''
+
 
 countries_data = [
     {
