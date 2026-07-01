@@ -1,4 +1,4 @@
-'''
+
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 print(len(it_companies))
 
@@ -44,7 +44,7 @@ del A
 del B
 
 print(B)
-'''
+
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 set_age = set(age)
